@@ -10,7 +10,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
     <body>
-
+<script>
         <main>
             <h1>Welcome to My Website</h1>
         </main>
@@ -21,113 +21,78 @@
         <script src="services.js"></script>
         <script src="reviews.js"></script>
         <script src="stylists.js"></script>
-        <ul>
-            <li><a href="index.js">Home</a></li>
-            <li>
-                <a href="services.js">Services</a>
-            </li>
-            <li><a href="contact.js">Contact</a></li>
-            <li>
-                <a href="profiles.js">Profiles</a>
-            </li>
-            <li>
-                <a href="stylists.js">Stylists</a>
-            </li>
-            <li>
-                <a href="reviews.js">Reviews</a>
-            </li>
-            <li><a href="about.js">About</a></li>
-        </ul>
+        <script src="cities.js">
+    <ul>
+                <li><a href="index.js "> Home </a></li>
+                <li><a href="cities.js"> Cities </a></li>
+                <li><a href="services.js"> Services </a></li>
+                <li><a href="contact.js"> Contact </a></li>
+                <li><a href="profiles.js"> Profiles </a></li>
+                <li><a href="stylists.js"> Stylists </a></li>
+                <li><a href="reviews.js"> Reviews </a></li>
+                <li><a href="about.js"> About </a></li>
+    </ul>
 
-        <head>
+            <head>
+                //   <!--linking the stylesheet(CSS) -->
+                  <link rel = "stylesheet" type = "text/css" href = "./style.css ">
+                //  <!-- linking javascript -->
+                  <script src = "./cities.js " >
 
-            <style>
-                .flex-container {
-                    display: flex;
-                    flex-direction: row;
-                    background-color: DodgerBlue;
-                }
-                
-                .flex-container>div {
-                    background-color: #f1f1f1;
-                    width: 100px;
-                    margin: 10px;
-                    text-align: center;
-                    line-height: 75px;
-                    font-size: 30px;
-                }
-                
-                body {
-                    background-color: rgb(230, 201, 173);
-                }
-                
-                h1 {
-                    color: rgb(218, 31, 109);
-                    text-align: center;
-                }
-                
-                p {
-                    font-family: verdana;
-                    font-size: 20px;
-                }
-                
-                ul {
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-                    overflow: hidden;
-                }
-                
-                li {
-                    float: left;
-                }
-                
-                li a {
-                    display: block;
-                    padding: 8px;
-                    background-color: #ec9829;
-                }
-            </style>
-        </head>
-        <div class="container">
-            <div>hi</div>
-            <div>there</div>
-            <div>friend</div>
-        </div>
-        <h1>find local stylists in your area
-        </h1>
+</script>
+        <style>
+            body {
+                background - color: rgb(230, 201, 173);
+            }
+            
+            h1 {
+                color: rgb(218, 31, 109);
+                text - align: center;
+            }
+            
+            p {
+                font - family: verdana;
+                font - size: 20 px;
+            }
+            
+            ul {
+                list - style - type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                padding: 8 px;
+                background - color: #ec9829;
+            }
+        </style>
+</head>
+<!-- input tag -->
+<input id="searchbar " onkeyup="search_cities() " type="text " name="search " placeholder="Search cities.. ">
+<!-- ordered list -->
+<ol id='list'>
+    <li class="cities">Los Angeles</li>
+    <li class="cities">New York</li>
+    <li class="cities">San Diego</li>
+    <li class="cities">San Francisco</li>
+    <li class="cities">Austin</li>
+    <li class="cities">Miami</li>
+    <li class="cities">Atlanta</li>
+    <li class=" cities">Washington D.C.</li>
+    <li class="cities">Oakland</li>
+    <li class="cities">Houston</li>
+    <li class="cities">Las Vegas</li>
+</ol>
+<!-- linking javascript -->
+<script src="./cities.js "></script>
+</body>
 
-        <p>check local stylists and see the work they do
-        </p>
-        <div class="container">
-            <div>
-                services
-                <li>
-                    weaves lace front wigs braids
-                </li>
-            </div>
-            <br>
-            <div class="container">
-                <div>
-                    contact
-                    <li> name phone numbers email
-                    </li>
-                </div>
-                <br>
-                <div class="container">
-                    <div>areas and locations
-                        <li>los angeles san francisco san diego austin houston new york miami
-
-                        </li>
-                    </div>
-                    <br>
-                    <div class="container">
-                        <div> choose a style </div>
-                        <br>
-                        <div class="container">
-                            <div>
-                                search a stylist </div>
-    </body>
 
 
 </html>

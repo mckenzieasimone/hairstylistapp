@@ -1,29 +1,17 @@
 < !DOCTYPE html >
-    <
-    html >
-    <
-    head >
-    <
-    title > Gmail API Quickstart < /title> <
-meta charset = 'utf-8' / >
-    <
-    /head> <
-body >
-    <
-    p > Gmail API Quickstart < /p>
+    <html>
+    <head>
+    <title> Gmail API Quickstart </title> <meta charset='utf-8' />
+    </head> 
+<body></body>
+    <p> Gmail API Quickstart </p>
 
 <!--Add buttons to initiate auth sequence and sign out-->
-<
-button id = "authorize-button"
-style = "display: none;" > Authorize < /button> <
-button id = "signout-button"
-style = "display: none;" > Sign Out < /button>
+<button id = "authorize-button" style = "display: none;" > Authorize </button> <button id = "signout-button" style = "display: none;" > Sign Out </button>
 
-<
-pre id = "content" > < /pre>
+<pre id = "content" > </pre>
 
-<
-script type = "text/javascript" >
+<script type = "text/javascript" >
     // Client ID and API key from the Developer Console
     var CLIENT_ID = '<YOUR_CLIENT_ID>';
 var API_KEY = '<YOUR_API_KEY>';

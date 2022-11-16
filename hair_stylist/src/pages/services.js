@@ -1,0 +1,9 @@
+const hair_style = "jumbo braids";
+const hair_style = "micro braids";
+const hair_style = "medium braids";
+const hair_style = "crochet braids";
+const hair_style = "lemonade braids";
+const hair_style = "box braids";
+const hair_style = "cornrows";
+const hair_style = "french braids";
+const hair_style = "fishtail braids";
